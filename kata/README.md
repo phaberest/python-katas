@@ -12,6 +12,10 @@ A collection of Python programming exercises (katas) designed to help you improv
    - Practice with arrays and efficient lookups
    - [Instructions](find_pairs_README.md)
 
+3. **Word Statistics** (`word_stats.py`)
+   - Practice with dictionaries and text processing
+   - [Instructions](word_stats_README.md)
+
 ## Getting Started
 
 1. Choose a kata you want to work on
@@ -25,6 +29,7 @@ To run tests for a specific kata:
 # From the kata directory
 python -m unittest test_sum_sequence.py -v  # For sum sequence kata
 python -m unittest test_find_pairs.py -v    # For find pairs kata
+python -m unittest test_word_stats.py -v    # For word statistics kata
 ```
 
 ## Project Structure
@@ -33,12 +38,14 @@ python_exercise/
 ├── kata/                  # Kata exercises
 │   ├── sum_sequence.py    # Sum sequence implementation
 │   ├── find_pairs.py      # Find pairs implementation
+│   ├── word_stats.py      # Word statistics implementation
 │   ├── test_*.py         # Test files
 │   └── *_README.md       # Instructions
 │
 └── solution/             # Solutions
     ├── sum_sequence.py
-    └── find_pairs.py
+    ├── find_pairs.py
+    └── word_stats.py
 ```
 
 ## Prerequisites
@@ -62,6 +69,10 @@ Una colección de ejercicios de programación (katas) diseñados para ayudarte a
    - Práctica con arrays y búsquedas eficientes
    - [Instrucciones](find_pairs_README.md)
 
+3. **Estadísticas de Palabras** (`word_stats.py`)
+   - Práctica con diccionarios y procesamiento de texto
+   - [Instrucciones](word_stats_README.md)
+
 ## Para Empezar
 
 1. Elige un kata en el que quieras trabajar
@@ -75,6 +86,7 @@ Para ejecutar las pruebas de un kata específico:
 # Desde el directorio kata
 python -m unittest test_sum_sequence.py -v  # Para el kata de suma secuencial
 python -m unittest test_find_pairs.py -v    # Para el kata de búsqueda de pares
+python -m unittest test_word_stats.py -v    # Para el kata de estadísticas de palabras
 ```
 
 ## Estructura del Proyecto
@@ -83,12 +95,14 @@ python_exercise/
 ├── kata/                  # Ejercicios kata
 │   ├── sum_sequence.py    # Implementación de suma secuencial
 │   ├── find_pairs.py      # Implementación de búsqueda de pares
+│   ├── word_stats.py      # Implementación de estadísticas de palabras
 │   ├── test_*.py         # Archivos de prueba
 │   └── *_README.md       # Instrucciones
 │
 └── solution/             # Soluciones
     ├── sum_sequence.py
-    └── find_pairs.py
+    ├── find_pairs.py
+    └── word_stats.py
 ```
 
 ## Requisitos Previos
@@ -112,6 +126,10 @@ Una collezione di esercizi di programmazione (kata) progettati per aiutarti a mi
    - Pratica con array e ricerche efficienti
    - [Istruzioni](find_pairs_README.md)
 
+3. **Statistiche Parole** (`word_stats.py`)
+   - Pratica con dizionari e elaborazione del testo
+   - [Istruzioni](word_stats_README.md)
+
 ## Per Iniziare
 
 1. Scegli un kata su cui vuoi lavorare
@@ -125,6 +143,7 @@ Per eseguire i test per un kata specifico:
 # Dalla directory kata
 python -m unittest test_sum_sequence.py -v  # Per il kata della somma sequenziale
 python -m unittest test_find_pairs.py -v    # Per il kata della ricerca coppie
+python -m unittest test_word_stats.py -v    # Per il kata delle statistiche parole
 ```
 
 ## Struttura del Progetto
@@ -133,12 +152,14 @@ python_exercise/
 ├── kata/                  # Esercizi kata
 │   ├── sum_sequence.py    # Implementazione somma sequenziale
 │   ├── find_pairs.py      # Implementazione ricerca coppie
+│   ├── word_stats.py      # Implementazione statistiche parole
 │   ├── test_*.py         # File di test
 │   └── *_README.md       # Istruzioni
 │
 └── solution/             # Soluzioni
     ├── sum_sequence.py
-    └── find_pairs.py
+    ├── find_pairs.py
+    └── word_stats.py
 ```
 
 ## Prerequisiti
